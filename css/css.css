@@ -1,0 +1,89 @@
+
+.rutas{
+    margin-top:3% ;
+}
+
+.rutas a{
+    text-decoration: none;
+    font-size: 20px;
+  color: black;
+}
+
+.rutas a:hover{
+    color: red;
+}
+
+@media (max-width:600px)
+    
+  {
+    .rutas{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .rutas a{
+        margin-top: 10%;
+    }
+}
+.containerr{
+    background-color: aquamarine;
+}
+.con1{
+    background-color: rgb(231, 120, 120);
+    color: rgb(255, 255, 255);
+}
+.con2{
+    background-color:#c8c47c;
+    color: #fff;
+}
+
+.separador{
+    width: 30%;
+}
+.contenedorr{
+    background-color: rgb(218, 215, 215);
+}
+
+.card{
+    margin: 3%;
+    background-color: #fff;
+    padding: 0%;
+    margin-right: 5;
+}
+
+
+.redondo{
+    background-color: #c8c47c;
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    font-size:xx-small;
+}
+.estilos{
+    color: red;
+}
+.completa{
+    background-image: url(../multimedia/chef_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+button{
+    margin-left: 38%;
+    color: #fff;
+    width: 25%;
+}
+.tama{
+    font-size:xx-large;
+}
+.tamaa{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.espacio{
+    padding: 10%
+}
